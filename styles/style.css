@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -38,6 +39,7 @@ ol {
 }
 
 .content {
+  align-self: center;
   display: grid;
   grid-template-columns: 711px 399px;
   grid-template-rows: 1fr;
